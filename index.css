@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background:url('—Pngtree—digital background featuring the word_15739474.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(56, 56, 104, 0.2 );
+    padding: 30px;
+    border-radius: 8px;
+   backdrop-filter:blur(10px) ;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 50vh;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #2fd138;
+    border-radius: 4px;
+    font-size: 18px;
+}
+#url-input{
+    height: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#check-btn {
+    background-color:   rgb(43, 128, 226);
+    transition: linear 0.3s;
+    color: white;
+}
+
+#check-btn:hover {
+    background-color: #1990ad;
+}
+
+#visit-btn {
+    margin-top: 10px;
+    background-color: rgb(43, 128, 226);
+    color: white;
+}
+
+#visit-btn:hover {
+    background-color: rgb(18, 139, 155);
+}
+
+#result-container {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#result {
+    font-size: 23px;
+    font-family: paprika;
+
+}
+
+.ok {
+    /* background-color: #383868; */
+    color: #03ff10;
+}
+
+.medium {
+    /* background-color: #383868; */
+    color: #FF9800;
+}
+
+.danger {
+    /* background-color:#383868 ; */
+    color: #F44336;
+}
